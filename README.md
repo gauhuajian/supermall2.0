@@ -1,24 +1,11 @@
-# bellestreet
+npm install 下载相关的配置
+npm run serve 运行
 
-## Project setup
-```
-npm install
-```
+项目相关的技术
+vue axios swiper better-scroll vue-lazyload less
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+swiper
+npm install vue-awesome-swiper --save-dev
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+better-scroll
+npm install better-scroll@next -S # install 2.x，with full-featured plugin.

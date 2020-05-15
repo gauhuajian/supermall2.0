@@ -46,6 +46,9 @@ export default {
 		};
 	},
 	mounted() {},
+	activated() {
+		this.$refs.scroll.refresh();
+	},
 	methods: {
 		itemClick(index) {
 			switch (index) {

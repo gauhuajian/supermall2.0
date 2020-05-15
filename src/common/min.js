@@ -6,7 +6,7 @@ export const itemListenerMixin = {
         }
     },
     mounted() {
-        this.refresh = this.debounce(this.$refs.scroll.refresh, 200)
+        this.refresh = this.debounce(this.$refs.scroll.refresh, 300)
         //事件总线 监听 goods图片加载
         this.$bus.$on('goodsImageLoad', () => {
             this.refresh()
